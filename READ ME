@@ -1,0 +1,21 @@
+This command line script is intented to assist with generating Assimil8or presets. Learn more about the Assimil8or http://www.rossum-electro.com/products/assimil8or/
+
+Currently, this script is very crude and quite limited. It will generate a preset referencing the first 8 samples in a folder.
+
+To give it a try:
+
+First, make a copy the folder containing samples that you wish to create Assimil8r presets for. 
+
+Second, move the copied samples folders into "SampleFolder".
+
+Third, open a terminal on your computer.
+
+Fourth, in the terminal change directories to SampleFolder: cd SampleFolder
+
+Fifth, run the presetgener8r script: sh presetgener8r.sh
+
+Sixth, you should now see that each of the folders inside "SampleFolder" have Assimil8r presets in them.
+
+Seventh, you can now copy your sample folders to the root of your microSD card and load each directory in your Assimil8r.
+
+Note: This project is not in any way associated with Rossum Electro-Music. The Assimil8or is a trademark of Rossum Electro-Music LLC.
