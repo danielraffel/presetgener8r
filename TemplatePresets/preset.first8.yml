@@ -1,0 +1,38 @@
+Preset 1 :
+  Name : Folder
+  XfadeACV : 1A
+  XfadeAWidth : 9.10
+  Channel 1 :
+    PlayMode : 1
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 1SAMPLE
+  Channel 2 :
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 2SAMPLE
+  Channel 3 :
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 3SAMPLE
+  Channel 4 :
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 4SAMPLE
+      Side : 1
+  Channel 5 :
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 5SAMPLE
+  Channel 6 :
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 6SAMPLE
+  Channel 7 :
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 7SAMPLE
+  Channel 8 :
+    PitchCV : 0A 0.50
+    Zone 1 :
+      Sample : 8SAMPLE
