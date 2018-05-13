@@ -13,11 +13,11 @@ for d in */; do cp -a ../TemplatePresets/. "$d"; done
 for dir in ./*; do (cd "$dir" && nl -w1 -s 'SAMPLE ' replacement.filenames8.txt > keyvalue8.txt); done
 # for dir in ./*; do (cd "$dir" && nl -w1 -s 'SAMPLE ' replacement.filenames64.txt > keyvalue64.txt); done
 
-# python final.script.py
+# run a python script and do some find and replace
 for dir in ./*; do (cd "$dir" && python ../renamer8.py); done
 # for dir in ./*; do (cd "$dir" && python ../renamer64.py); done
 
-# delete the extra mess of files made during this silly process
+# delete the extra mess of files made during this process
 for dir in ./*; do (cd "$dir" && rm keyvalue8.txt keyvalue64.txt replacement.filenames8.txt replacement.filenames64.txt preset.first8.yml preset.first8.yml preset.upto64.yml); done
 
 # Rename the preset after the folder
